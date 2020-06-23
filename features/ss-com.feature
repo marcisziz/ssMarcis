@@ -13,6 +13,6 @@ Feature: Adding ad to favorites
   Scenario: Add one add to favorites
     When I add one ad to favorites
     Then I should select ad added to memo section
-  cenario: Verify that one ad can not be added twice
+  Scenario: Verify that one ad can not be added twice
     When I add one ad to favorites twice
     Then there should be only one ad in Memo section
